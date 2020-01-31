@@ -1,5 +1,7 @@
 require "spec_helper"
 
-it 'is true' do
-  expect(true).to eq(true)
+describe 'something' do
+  it 'is true' do
+    expect(true).to eq(true)
+  end
 end
